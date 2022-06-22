@@ -13,4 +13,5 @@ of walmart's stock at the end of each day. This web application is based on mult
 3) Install dependencies using `pip install -r requirements.txt`
 3) Run `python app.py` to open the app on `localhost:5000`.
 
-## [Web App](https://serene-falls-78510.herokuapp.com/) Deployed at Heroku
+## Web App
+[link](https://serene-falls-78510.herokuapp.com/)
