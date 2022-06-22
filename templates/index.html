@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stock market prediction</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <link rel="stylesheet" href="/static/style.css">
+
+
+    <header>
+        <nav>
+            <div class="title"><h1>Walmart Stock market predicter </h1> 
+                <img calss="img1"src="https://cdn.mos.cms.futurecdn.net/5StAbRHLA4ZdyzQZVivm2c.jpg" width="125" height="75">
+            </div>
+        </nav>
+    </header>
+    
+
+
+
+    <div class="box">
+        <!-- images -->
+    <!-- <img calss="img1"src="https://cdn.mos.cms.futurecdn.net/5StAbRHLA4ZdyzQZVivm2c.jpg" width="100" height="50"> -->
+    
+    </div>
+
+
+
+
+      
+
+    <!-- input values -->
+<section class="container">
+
+    <form method="POST" action="{{url_for('predict')}}">
+        <div class="input"><input type="text" id="higest" name="highestprice" placeholder="highest stock" class="inputbox"><br>
+            <br>
+            <input type="text" id="lowest" name="lowestprice" placeholder="lowest price" class="inputbox"><br>
+            <br>
+            <input type="text" id="opening" name="openingprice" placeholder="opening price" class="inputbox"><br>
+            <br>
+            <input type="text" id="volume" name="volumeofdata" placeholder="volume of stock" class="inputbox"><br>
+            <br>
+            <button type="submit",value='predict' class="btn btn-primary btn-block btn-large">predict</button>
+            <br>
+            
+
+        </div>
+    </form>
+    <br>
+    <br>
+    {{ prediction_text }}
+   
+</section>
+
+    
+    
+
+
+
+    
+
+    
+</body>
+</html>
