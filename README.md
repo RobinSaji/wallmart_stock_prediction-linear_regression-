@@ -3,8 +3,8 @@ Stock predicter is a web based application which can predict the closing price o
 of walmart's stock at the end of each day. This web application is based on multiple linear regression and built primarily flask framework.
 
 ## Software Used
--Flask(Backend)
--Heroku(Paa
+-->Flask(Backend)
+-->Heroku(PaaS)
 
 ## Instruction
 #### To run locally,
@@ -15,3 +15,5 @@ of walmart's stock at the end of each day. This web application is based on mult
 
 ## Web App
 [Link](https://serene-falls-78510.herokuapp.com/)
+
+##Demo video
