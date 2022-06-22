@@ -17,4 +17,4 @@ of walmart's stock at the end of each day. This web application is based on mult
 [Link](https://serene-falls-78510.herokuapp.com/)
 
 ## Demo video
-![demo](https://github.com/RobinSaji/wallmart_stock_prediction-linear_regression-/blob/main/assets/WhatsApp%20Video%202022-06-22%20at%203.32.42%20PM.mp4)
+![demo](https://github.com/RobinSaji/wallmart_stock_prediction-linear_regression-/blob/main/assets/demo.mp4)
