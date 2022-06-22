@@ -6,4 +6,4 @@ scikit-learn==1.1.1
 numpy==1.22.4
 pandas==1.4.2
 pickle4==0.0.1
-gunicorn==20.1.o
+gunicorn==20.1.0
